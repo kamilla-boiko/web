@@ -1,0 +1,23 @@
+input {
+	color:  green;
+	height: 2em;
+	padding: 0 10px;
+	box-sizing: border-box;
+	display: inline;
+}
+
+input[type="text"] {
+	border: 2px solid blue;
+	border-radius: 5px;
+	float: left;
+	outline: none;
+	width: calc(100% - 60px);
+}
+
+input[type="button"] {
+	width: fit-content;
+}
+
+input:hover {
+	color: red;
+}
